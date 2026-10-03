@@ -18,11 +18,11 @@
 <body>
 <main>
   <h1>نورِ اذکار — پرائیویسی پالیسی</h1>
-  <p class="muted">آخری تبدیلی: 3 اکتوبر 2026 (احادیث کی کتابیں، نماز ٹریکر اور زکوٰۃ کیلکولیٹر)</p>
+  <p class="muted">آخری تبدیلی: 3 اکتوبر 2026 (اختیاری اکاؤنٹ اور کلاؤڈ sync)</p>
 
   <section>
     <h2>خلاصہ</h2>
-    <p>نورِ اذکار آپ کا کوئی ذاتی ڈیٹا جمع، محفوظ یا کسی کے ساتھ شیئر نہیں کرتی۔ ایپ میں کوئی اکاؤنٹ، اشتہار یا اینالیٹکس نہیں۔</p>
+    <p>نورِ اذکار اکاؤنٹ کے بغیر مکمل استعمال کی جا سکتی ہے، اور اس صورت میں آپ کا کوئی ذاتی ڈیٹا جمع نہیں کیا جاتا۔ اگر آپ خود اختیاری اکاؤنٹ بنائیں تو صرف وہی معلومات محفوظ ہوتی ہیں جو نیچے «اکاؤنٹ اور کلاؤڈ sync» میں بیان ہیں۔ ایپ میں کوئی اشتہار یا اینالیٹکس نہیں، اور کوئی ڈیٹا فروخت یا کسی کے ساتھ شیئر نہیں کیا جاتا۔</p>
   </section>
 
   <section>
@@ -45,9 +45,19 @@
     <p>اطلاعات (یاد دہانیوں اور نماز کے وقت کے لیے)، تقریبی مقام (اختیاری)، وائبریشن، اور فون دوبارہ چالو ہونے پر یاد دہانیاں بحال کرنا۔</p>
   </section>
 
+  <section id="account">
+    <h2>اکاؤنٹ اور کلاؤڈ sync (اختیاری)</h2>
+    <p>اگر آپ Google یا ای میل/پاس ورڈ سے اکاؤنٹ بنائیں تو Google Firebase (Authentication اور Cloud Firestore) میں یہ محفوظ ہوتا ہے: آپ کا نام، ای میل، اکاؤنٹ کی شناخت (user ID)، اور آپ کا ایپ ڈیٹا — اپنی شامل کردہ دعائیں، پسندیدہ، تسبیح کے کاؤنٹر، نماز کا ریکارڈ اور قضا کی تعداد۔ مقام (location) اور دیگر سیٹنگز کبھی sync نہیں ہوتیں۔ یہ ڈیٹا صرف آپ کے آلات کے درمیان sync کے لیے استعمال ہوتا ہے، انٹرنیٹ پر منتقلی کے دوران خفیہ (encrypted) ہوتا ہے، اور صرف آپ کا اکاؤنٹ اسے پڑھ سکتا ہے۔</p>
+  </section>
+
+  <section id="delete">
+    <h2>اکاؤنٹ اور ڈیٹا حذف کرنا</h2>
+    <p>ایپ میں: مینو ← اکاؤنٹ ← «اکاؤنٹ حذف کریں»۔ اس سے آپ کا اکاؤنٹ اور کلاؤڈ پر محفوظ تمام ڈیٹا فوراً اور ہمیشہ کے لیے حذف ہو جاتا ہے۔ اگر ایپ تک رسائی نہ ہو تو Google Play پر ایپ کے صفحے پر دیے گئے developer ای میل پر اپنے اکاؤنٹ کے ای میل سے درخواست بھیجیں؛ تصدیق کے بعد 30 دن کے اندر اکاؤنٹ اور ڈیٹا حذف کر دیا جائے گا۔ فون میں موجود ڈیٹا ایپ ان انسٹال کرنے سے حذف ہو جاتا ہے۔</p>
+  </section>
+
   <section>
     <h2>بچے</h2>
-    <p>یہ ایپ کسی سے بھی، بشمول بچوں کے، کوئی ذاتی معلومات جمع نہیں کرتی۔</p>
+    <p>یہ ایپ بچوں کے لیے نہیں بنائی گئی اور جان بوجھ کر بچوں سے کوئی ذاتی معلومات جمع نہیں کرتی۔</p>
   </section>
 
   <section>
@@ -57,13 +67,15 @@
 
   <section class="en" dir="ltr" lang="en">
     <h2>Privacy Policy (English)</h2>
-    <p class="muted">Last updated: 3 October 2026 (hadith collections, prayer tracker, zakat calculator)</p>
-    <p><strong>Summary.</strong> Noor Azkar does not collect, store on servers, or share any personal data. There are no accounts, ads or analytics.</p>
+    <p class="muted">Last updated: 3 October 2026 (optional accounts and cloud sync)</p>
+    <p><strong>Summary.</strong> Noor Azkar can be fully used without an account, in which case no personal data is collected. If you choose to create an optional account, only the data described under "Accounts and cloud sync" is stored. There are no ads or analytics, and no data is sold or shared.</p>
     <p><strong>Data on your device.</strong> Your own duas, favorites, counters, tasbeeh, reminders and settings are stored only on your device and are never transmitted. Uninstalling the app deletes them. Backup files are created only when you choose to, and you decide where they are saved.</p>
     <p><strong>Location.</strong> Optionally, the app uses your approximate location (or a city you pick from a list) to calculate prayer times and the qibla direction. It is processed and stored only on your device and is never sent anywhere.</p>
     <p><strong>Internet.</strong> The internet is used only to (1) stream Quran recitation from EveryAyah.com and (2) download a book of the hadith collections (Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik) the first time you open it, from the open hadith-api via the jsDelivr CDN (cdn.jsdelivr.net); it is then kept on your device. These requests contain no personal information; as with any web request, those servers can see your IP address. Everything else works offline.</p>
     <p><strong>Permissions.</strong> Notifications (reminders and prayer times), approximate location (optional), vibration, and restoring reminders after the device restarts.</p>
-    <p><strong>Children.</strong> The app collects no personal information from anyone, including children.</p>
+    <p id="account-en"><strong>Accounts and cloud sync (optional).</strong> If you create an account with Google or email/password, Google Firebase (Authentication and Cloud Firestore) stores your name, email, account ID and your app data — your own duas, favorites, tasbeeh counters, prayer record and qaza counts. Location and other settings are never synced. This data is used only to sync your devices, is encrypted in transit, and is readable only by your account.</p>
+    <p id="delete-en"><strong>Deleting your account and data.</strong> In the app: Menu → Account → "Delete account". This immediately and permanently deletes your account and all cloud data. Without access to the app, email the developer address shown on the app's Google Play page from your account's email; after verification your account and data are deleted within 30 days. Data on your phone is removed by uninstalling the app.</p>
+    <p><strong>Children.</strong> The app is not directed at children and does not knowingly collect personal information from children.</p>
     <p><strong>Contact.</strong> Please use the developer email shown on the app’s Google Play page.</p>
   </section>
 </main>
